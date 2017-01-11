@@ -1,0 +1,13 @@
+diff --git a/core/lib/Drupal/Component/Render/FormattableMarkup.php b/core/lib/Drupal/Component/Render/FormattableMarkup.php
+index 6797b97..6e98928 100644
+--- a/core/lib/Drupal/Component/Render/FormattableMarkup.php
++++ b/core/lib/Drupal/Component/Render/FormattableMarkup.php
+@@ -147,7 +147,7 @@ public function jsonSerialize() {
+    *     A call like:
+    *     @code
+    *       $string = "%output_text";
+-   *       $arguments = ['%output_text' => 'text output here.'];
++   *       $arguments = ['%output_text' => 'text output here.'];
+    *       $this->placeholderFormat($string, $arguments);
+    *     @endcode
+    *     makes the following HTML code:
